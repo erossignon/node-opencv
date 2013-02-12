@@ -13,7 +13,8 @@ class CascadeClassifierWrap: public node::ObjectWrap {
     //static Handle<Value> LoadHaarClassifierCascade(const v8::Arguments&);
 
 	static Handle<Value> DetectMultiScale(const v8::Arguments&);
-	static void EIO_DetectMultiScale(eio_req *req);
-	static int EIO_AfterDetectMultiScale(eio_req *req);
+	
+	//xx static void EIO_DetectMultiScale(eio_req *req);
+	//xx static int EIO_AfterDetectMultiScale(eio_req *req);
 
 };
